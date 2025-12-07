@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover the best brunch spots in Mount Pleasant, SC to recover after your bachelorette party or wild night out. Local guide to hangover-friendly restaurants and cafes.">
+    <title>Best Brunch Spots in Mt. Pleasant After a Wild Night | Charleston Male Strippers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <style>
+        :root {
+            --primary-blue: #0d47a1;
+            --secondary-blue: #1976d2;
+            --accent-gold: #ffd700;
+            --text-dark: #212529;
+        }
+        
+        body {
+            background: linear-gradient(to bottom, #0d47a1, #1565c0);
+            min-height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .main-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 30px 15px;
+        }
+        
+        .content-card {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 15px 50px rgba(0,0,0,0.4);
+            overflow: hidden;
+        }
+        
+        .header-section {
+            background: linear-gradient(135deg, var(--primary-blue), var(--secondary-blue));
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+        
+        .header-section h1 {
+            font-size: 2.8rem;
+            font-weight: 800;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .header-section .subtitle {
+            font-size: 1.3rem;
+            font-weight: 300;
+            opacity: 0.95;
+        }
+        
+        .content-body {
+            padding: 50px 40px;
+        }
+        
+        h2 {
+            color: var(--primary-blue);
+            font-weight: 700;
+            font-size: 2rem;
+            margin-top: 50px;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid var(--accent-gold);
+        }
+        
+        h2:first-of-type {
+            margin-top: 0;
+        }
+        
+        h3 {
+            color: var(--secondary-blue);
+            font-weight: 600;
+            font-size: 1.5rem;
+            margin-top: 35px;
+            margin-bottom: 15px;
+        }
+        
+        p {
+            font-size: 1.1rem;
+            line-height: 1.9;
+            color: var(--text-dark);
+            margin-bottom: 20px;
+        }
+        
+        .intro-text {
+            font-size: 1.25rem;
+            color: #495057;
+            line-height: 1.8;
+            margin-bottom: 35px;
+            padding: 25px;
+            background: #f8f9fa;
+            border-left: 5px solid var(--secondary-blue);
+            border-radius: 5px;
+        }
+        
+        .restaurant-card {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 30px;
+            margin: 30px 0;
+            border-left: 5px solid var(--secondary-blue);
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .restaurant-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+        }
+        
+        .restaurant-card h3 {
+            color: var(--primary-blue);
+            margin-top: 0;
+            font-size: 1.8rem;
+        }
+        
+        .restaurant-card .specialty {
+            background: var(--accent-gold);
+            color: var(--primary-blue);
+            padding: 8px 15px;
+            border-radius: 20px;
+            display: inline-block;
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+        }
+        
+        .restaurant-card .address {
+            color: #6c757d;
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+        
+        .restaurant-card .address i {
+            color: var(--secondary-blue);
+            margin-right: 8px;
+        }
+        
+        .restaurant-card .why-go {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+        
+        .restaurant-card .why-go strong {
+            color: var(--secondary-blue);
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        .restaurant-card .must-order {
+            background: #e7f3ff;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+        
+        .restaurant-card .must-order strong {
+            color: var(--primary-blue);
+        }
+        
+        .tip-box {
+            background: #d4edda;
+            border: 2px solid #28a745;
+            border-radius: 10px;
+            padding: 30px;
+            margin: 35px 0;
+        }
+        
+        .tip-box h3 {
+            color: #155724;
+            margin-top: 0;
+        }
+        
+        .tip-box .icon {
+            font-size: 2.5rem;
+            color: #28a745;
+            margin-bottom: 15px;
+        }
+        
+        .quick-tips {
+            background: #fff3cd;
+            border-left: 5px solid #ffc107;
+            padding: 25px;
+            margin: 30px 0;
+            border-radius: 5px;
+        }
+        
+        .quick-tips h3 {
+            color: #856404;
+            margin-top: 0;
+        }
+        
+        .quick-tips ul {
+            margin-bottom: 0;
+        }
+        
+        .quick-tips li {
+            margin-bottom: 10px;
+        }
+        
+        .cta-banner {
+            background: linear-gradient(135deg, var(--primary-blue), var(--secondary-blue));
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+            border-radius: 15px;
+            margin: 50px 0;
+        }
+        
+        .cta-banner h2 {
+            color: white;
+            border: none;
+            margin: 0 0 20px 0;
+            padding: 0;
+        }
+        
+        .cta-banner p {
+            color: white;
+            font-size: 1.2rem;
+            margin-bottom: 35px;
+        }
+        
+        .cta-button {
+            background: var(--accent-gold);
+            color: var(--primary-blue);
+            font-size: 1.4rem;
+            font-weight: 700;
+            padding: 18px 50px;
+            border: none;
+            border-radius: 50px;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 20px rgba(255,215,0,0.3);
+        }
+        
+        .cta-button:hover {
+            background: #ffed4e;
+            color: var(--primary-blue);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(255,215,0,0.5);
+        }
+        
+        .footer-section {
+            background: #f8f9fa;
+            padding: 40px;
+            border-top: 3px solid var(--accent-gold);
+            margin-top: 50px;
+        }
+        
+        .category-badge {
+            display: inline-block;
+            background: var(--secondary-blue);
+            color: white;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.85rem;
+            margin-right: 8px;
+            margin-bottom: 8px;
+        }
+        
+        @media (max-width: 768px) {
+            .header-section h1 {
+                font-size: 2rem;
+            }
+            
+            .header-section .subtitle {
+                font-size: 1.1rem;
+            }
+            
+            .content-body {
+                padding: 30px 20px;
+            }
+            
+            .restaurant-card {
+                padding: 20px;
+            }
+            
+            h2 {
+                font-size: 1.6rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="content-card">
+            <div class="header-section">
+                <h1>Best Brunch Spots in Mt. Pleasant After a Wild Night</h1>
+                <p class="subtitle">Your Essential Recovery Guide to Mount Pleasant's Top Hangover-Friendly Restaurants</p>
+            </div>
+            
+            <div class="content-body">
+                <div class="intro-text">
+                    So last night was unforgettable. The bachelorette party was epic, the entertainment delivered, and the celebration went well into the early hours. Now you're waking up in Mount Pleasant with a group of friends who need serious sustenance. Here's your guide to the best brunch spots that understand exactly what you need right now.
+                </div>
+
+                <p>Mount Pleasant offers some of Charleston's best brunch destinations, and when you're recovering from an unforgettable night of celebration, you need more than just food—you need atmosphere, quality, and dishes designed to bring you back to life. Whether you're nursing a hangover from downtown Charleston or recovering from a beach party at Isle of Palms, these Mt. Pleasant brunch spots have you covered.</p>
+
+                <h2>The Ultimate Mt. Pleasant Brunch Recovery Spots</h2>
+
+                <div class="restaurant-card">
+                    <span class="specialty">Hangover Hero</span>
+                    <h3>Page's Okra Grill</h3>
+                    <p class="address"><i class="bi bi-geo-alt-fill"></i>1450 Ben Sawyer Blvd, Mount Pleasant, SC 29464</p>
+                    
+                    <div class="why-go">
+                        <strong>Why You Need This After Last Night:</strong>
+                        <p>Page's is the undisputed champion of Mount Pleasant hangover brunches. This Lowcountry institution serves up exactly what your body is craving: hearty Southern comfort food with generous portions that actually stick to your ribs. The casual, laid-back atmosphere means you can show up in sunglasses and yesterday's makeup without judgment.</p>
+                    </div>
+                    
+                    <div class="must-order">
+                        <strong><i class="bi bi-star-fill"></i> Must Order for Recovery:</strong> The Shrimp and Grits with a side of their famous Fried Green Tomatoes. The creamy grits will settle your stomach while the protein from the shrimp gives you the energy boost you desperately need. Chase it with their Sweet Tea—trust us on this.
+                    </div>
+                    
+                    <p><span class="category-badge">Southern Comfort</span><span class="category-badge">Large Portions</span><span class="category-badge">Casual Vibe</span></p>
+                </div>
+
+                <div class="restaurant-card">
+                    <span class="specialty">Upscale Recovery</span>
+                    <h3>The Obstinate Daughter</h3>
+                    <p class="address"><i class="bi bi-geo-alt-fill"></i>2063 Middle St, Sullivan's Island, SC 29482</p>
+                    
+                    <div class="why-go">
+                        <strong>Why You Need This After Last Night:</strong>
+                        <p>Located just over the bridge on Sullivan's Island, The Obstinate Daughter offers a slightly more upscale recovery experience. If your bachelorette group prefers quality ingredients and Instagram-worthy dishes while nursing those headaches, this is your spot. The wood-fired pizzas and creative brunch cocktails (Hair of the Dog, anyone?) make this worth the short drive.</p>
+                    </div>
+                    
+                    <div class="must-order">
+                        <strong><i class="bi bi-star-fill"></i> Must Order for Recovery:</strong> The Crispy Pork Belly Hash with a fried egg on top. The richness will coat your stomach, and the runny egg yolk is pure hangover medicine. Pair it with their Bloody Mary—it's legendary for a reason.
+                    </div>
+                    
+                    <p><span class="category-badge">Trendy</span><span class="category-badge">Wood-Fired</span><span class="category-badge">Brunch Cocktails</span></p>
+                </div>
+
+                <div class="restaurant-card">
+                    <span class="specialty">Waterfront Vibes</span>
+                    <h3>Red Drum</h3>
+                    <p class="address"><i class="bi bi-geo-alt-fill"></i>803 Coleman Blvd, Mount Pleasant, SC 29464</p>
+                    
+                    <div class="why-go">
+                        <strong>Why You Need This After Last Night:</strong>
+                        <p>Nothing cures a hangover quite like waterfront views and fresh seafood. Red Drum sits on Shem Creek, offering both indoor and outdoor seating with gorgeous water views. The sea breeze, the peaceful atmosphere, and the sound of boats bobbing in the marina create the perfect recovery environment for your crew.</p>
+                    </div>
+                    
+                    <div class="must-order">
+                        <strong><i class="bi bi-star-fill"></i> Must Order for Recovery:</strong> The She-Crab Soup followed by their Crab Cake Benedict. The soup is rich and warming, perfect for settling queasy stomachs, while the Benedict provides protein and those glorious hollandaise-covered carbs you're craving.
+                    </div>
+                    
+                    <p><span class="category-badge">Waterfront</span><span class="category-badge">Seafood Focus</span><span class="category-badge">Scenic Views</span></p>
+                </div>
+
+                <div class="restaurant-card">
+                    <span class="specialty">Breakfast Champion</span>
+                    <h3>Toast! All Day</h3>
+                    <p class="address"><i class="bi bi-geo-alt-fill"></i>1055 Johnnie Dodds Blvd, Mount Pleasant, SC 29464</p>
+                    
+                    <div class="why-go">
+                        <strong>Why You Need This After Last Night:</strong>
+                        <p>The name says it all—they serve breakfast all day, which is crucial when your group can't agree on what time to actually roll out of bed. Toast! specializes in creative breakfast dishes with fresh ingredients, and their portions are generous enough to share (or not—we don't judge). The bright, cheerful atmosphere might actually make you feel human again.</p>
+                    </div>
+                    
+                    <div class="must-order">
+                        <strong><i class="bi bi-star-fill"></i> Must Order for Recovery:</strong> The Crunchy French Toast with fresh berries and whipped cream. The sweetness fights nausea, the bread soaks up everything from last night, and the fresh fruit makes you feel like you're making healthy choices. Also grab a side of bacon—you need the salt and fat.
+                    </div>
+                    
+                    <p><span class="category-badge">All-Day Breakfast</span><span class="category-badge">Creative Menu</span><span class="category-badge">Fresh Ingredients</span></p>
+                </div>
+
+                <div class="restaurant-card">
+                    <span class="specialty">Local Favorite</span>
+                    <h3>Shelter Kitchen + Bar</h3>
+                    <p class="address"><i class="bi bi-geo-alt-fill"></i>2616 Hwy 17 N, Mount Pleasant, SC 29466</p>
+                    
+                    <div class="why-go">
+                        <strong>Why You Need This After Last Night:</strong>
+                        <p>Shelter brings farm-to-table freshness to Mount Pleasant brunch with a menu that changes seasonally. Their commitment to local ingredients means you're getting the best of what the Lowcountry has to offer. The modern, airy space with an outdoor patio is perfect for groups, and the mimosa flights are dangerous (in the best way).</p>
+                    </div>
+                    
+                    <div class="must-order">
+                        <strong><i class="bi bi-star-fill"></i> Must Order for Recovery:</strong> The Fried Chicken Biscuit with honey butter and a side of their Truffle Fries. This dish is pure comfort—crispy, salty, savory, and exactly what your body is screaming for. The truffle fries add just enough sophistication to make you forget you're eating hangover food.
+                    </div>
+                    
+                    <p><span class="category-badge">Farm-to-Table</span><span class="category-badge">Modern Space</span><span class="category-badge">Outdoor Seating</span></p>
+                </div>
+
+                <div class="restaurant-card">
+                    <span class="specialty">Waterfront Classic</span>
+                    <h3>Water's Edge</h3>
+                    <p class="address"><i class="bi bi-geo-alt-fill"></i>1407 Shrimp Boat Ln, Mount Pleasant, SC 29464</p>
+                    
+                    <div class="why-go">
+                        <strong>Why You Need This After Last Night:</strong>
+                        <p>Located on Shem Creek with stunning marsh views, Water's Edge combines casual coastal dining with killer brunch options. The open-air setting and relaxed vibe make it ideal for a recovery meal where half your group is still wearing sunglasses indoors. The gentle creek views and fresh air work wonders on foggy heads.</p>
+                    </div>
+                    
+                    <div class="must-order">
+                        <strong><i class="bi bi-star-fill"></i> Must Order for Recovery:</strong> The Lowcountry Shrimp Omelet loaded with local shrimp, cheese, and peppers. Eggs are nature's perfect hangover food, and when you add Charleston's famous shrimp, you've got a winning combination. Order a side of grits and you're golden.
+                    </div>
+                    
+                    <p><span class="category-badge">Shem Creek</span><span class="category-badge">Marsh Views</span><span class="category-badge">Casual Coastal</span></p>
+                </div>
+
+                <div class="quick-tips">
+                    <h3><i class="bi bi-lightbulb-fill"></i> Pro Tips for Brunch Recovery</h3>
+                    <ul>
+                        <li><strong>Timing is Everything:</strong> Most Mt. Pleasant brunch spots get packed between 10am-12pm on weekends. If possible, aim for 9am or after 1pm to avoid long waits when you're already feeling rough.</li>
+                        <li><strong>Hydrate Before You Arrive:</strong> Chug water before you leave for brunch. You'll feel 50% better before you even order food.</li>
+                        <li><strong>Order Extra Sides:</strong> When hungover, your group will eat more than usual. Order extra bacon, hash browns, or biscuits to share.</li>
+                        <li><strong>Embrace the Grease:</strong> This is not the time for egg white omelets. Your body wants comfort food—give it what it needs.</li>
+                        <li><strong>Split a Dessert:</strong> Many places have amazing beignets or cinnamon rolls. The sugar rush helps more than you'd think.</li>
+                        <li><strong>Take Your Time:</strong> Don't rush the recovery meal. Linger, chat about last night's highlights, and let your body slowly come back to life.</li>
+                    </ul>
+                </div>
+
+                <h2>What to Look for in a Post-Party Brunch Spot</h2>
+
+                <h3>Generous Portions</h3>
+                <p>After a night of celebration, your body is depleted and craving substantial food. The best recovery brunch spots don't skimp on portion sizes. You want plates that arrive loaded with eggs, meat, potatoes, and carbs. Mount Pleasant restaurants understand Southern hospitality, which means you won't leave hungry.</p>
+
+                <h3>Carb-Heavy Options</h3>
+                <p>Science backs this up: your body processes alcohol using glycogen stored in your liver, and replenishing those stores requires carbohydrates. French toast, biscuits, grits, hash browns, and pancakes aren't just delicious—they're actually helping your recovery. Don't fight the craving for bread and potatoes; lean into it.</p>
+
+                <h3>Hydration-Friendly Menus</h3>
+                <p>Look for places that offer fresh-squeezed juices, coconut water, or electrolyte-rich beverages alongside their coffee. While that mimosa might sound tempting (hair of the dog and all), your body actually needs serious hydration first. Coffee is great, but make sure you're also drinking water or juice.</p>
+
+                <h3>Casual, Judgment-Free Atmosphere</h3>
+                <p>You and your crew probably aren't looking your best this morning. The ideal post-party brunch spot has a relaxed, come-as-you-are vibe where showing up in athletic wear and sunglasses is perfectly acceptable. Mount Pleasant excels at this kind of laid-back coastal dining.</p>
+
+                <div class="tip-box text-center">
+                    <i class="bi bi-heart-fill icon"></i>
+                    <h3>Recovery Hack: The Charleston Breakfast Sandwich Cure</h3>
+                    <p>Almost every spot on this list offers some version of a breakfast sandwich. There's something about the combination of bread, egg, cheese, and meat that specifically targets hangover symptoms. The protein stabilizes blood sugar, the carbs restore energy, and the fat helps your body process any lingering alcohol. Order one—your future self will thank you.</p>
+                </div>
+
+                <h2>Planning Your Post-Party Brunch</h2>
+
+                <h3>Location Matters</h3>
+                <p>If you celebrated in downtown Charleston and are staying in Mount Pleasant, you're perfectly positioned for these brunch spots. Most are within 10-15 minutes of each other, so you can choose based on vibe rather than distance. Shem Creek restaurants (Red Drum, Water's Edge) are great if you want waterfront views. The Highway 17 spots (Toast!, Shelter) are convenient if you're coming from farther north in Mount Pleasant.</p>
+
+                <h3>Make Reservations When Possible</h3>
+                <p>While some of these spots don't take reservations, others do—and when you're hungover, the last thing you want is a 45-minute wait. Call ahead or check their websites. If reservations aren't available, send one person from your group ahead to put your name on the waitlist while everyone else gets ready.</p>
+
+                <h3>Consider the Vibe Your Group Needs</h3>
+                <p>Every group has different recovery needs. Some want quiet, peaceful settings to nurse their headaches (Water's Edge, Red Drum). Others want lively atmospheres that distract from the pain (Page's Okra Grill, Toast!). Some groups need upscale quality to feel human again (The Obstinate Daughter, Shelter). Think about what kind of energy your crew has and choose accordingly.</p>
+
+                <h2>The Perfect Brunch Recovery Timeline</h2>
+
+                <p><strong>8:00 AM:</strong> Wake up, drink a full glass of water, take ibuprofen</p>
+                <p><strong>8:30 AM:</strong> Shower (even if you don't feel like it—you'll feel better)</p>
+                <p><strong>9:00 AM:</strong> Head to brunch spot as they open, beat the crowds</p>
+                <p><strong>9:15 AM:</strong> Order coffee and water immediately upon sitting</p>
+                <p><strong>9:30 AM:</strong> Food arrives, start slow with small bites</p>
+                <p><strong>10:30 AM:</strong> Finish meal, feeling 80% human again</p>
+                <p><strong>11:00 AM:</strong> Walk along Shem Creek or the waterfront if weather permits—fresh air accelerates recovery</p>
+                <p><strong>12:00 PM:</strong> Head back to your hotel/rental for an afternoon nap, properly refueled</p>
+
+                <div class="cta-banner">
+                    <h2>Planning the Perfect Mt. Pleasant Celebration?</h2>
+                    <p>Let us handle the entertainment so you can focus on the recovery brunch. Charleston Male Strippers delivers unforgettable bachelorette party experiences throughout Mount Pleasant, downtown Charleston, and the surrounding beaches.</p>
+                    <a href="https://charlestonmalestrippers.com" class="cta-button">Book Your Party Entertainment</a>
+                    <p style="margin-top: 30px; font-size: 1rem; opacity: 0.9;">Local. Reliable. Guaranteed to Make Your Night Unforgettable.</p>
+                </div>
+
+                <h2>Quick Reference: Brunch Spots by Need</h2>
+
+                <h3>Best for Large Groups</h3>
+                <p><strong>Shelter Kitchen + Bar</strong> - Modern space with ample seating and a menu that accommodates various dietary preferences.</p>
+
+                <h3>Best Waterfront Views</h3>
+                <p><strong>Red Drum</strong> - Unbeatable Shem Creek location with both indoor and outdoor seating overlooking the water.</p>
+
+                <h3>Best for Serious Hangovers</h3>
+                <p><strong>Page's Okra Grill</strong> - No-frills Southern comfort food with portions designed to restore you to life.</p>
+
+                <h3>Best for Brunch Cocktails</h3>
+                <p><strong>The Obstinate Daughter</strong> - Creative cocktail menu including legendary Bloody Marys and mimosa variations.</p>
+
+                <h3>Best Overall Value</h3>
+                <p><strong>Toast! All Day</strong> - Generous portions, reasonable prices, and consistent quality make this a smart choice for budget-conscious groups.</p>
+
+                <h3>Best Atmosphere</h3>
+                <p><strong>Water's Edge</strong> - Relaxed coastal vibe with marsh views creates the perfect recovery environment.</p>
+
+                <h2>Final Thoughts: Embracing the Morning After</h2>
+
+                <p>Here's the truth about post-bachelorette party brunches in Mount Pleasant: they're not just about recovery, they're about extending the celebration. Yes, you're tired and probably a bit worse for wear, but you're also surrounded by your favorite people, reminiscing about an unforgettable night, and enjoying some of the best food Charleston has to offer.</p>
+
+                <p>These brunch spots understand the assignment. They've seen countless bachelorette parties stumble in on Sunday mornings, and they know exactly what you need: great food, generous portions, refreshing drinks, and a welcoming atmosphere that doesn't judge the sunglasses indoors or the slight green tinge to everyone's complexion.</p>
+
+                <p>Mount Pleasant's brunch scene perfectly complements Charleston's reputation as a top bachelorette party destination. You party in the city, you recover in Mount Pleasant, and you leave with memories (and photos) that will last a lifetime.</p>
+
+                <p>So order that extra side of bacon, get the full-fat everything, and don't even think about a salad. You earned this meal. Your night was legendary, and your brunch should be too.</p>
+
+                <div class="footer-section">
+                    <h3 style="color: var(--primary-blue); margin-top: 0;">About Charleston Male Strippers</h3>
+                    <p style="margin-bottom: 0;">Charleston Male Strippers is Mount Pleasant and Charleston's premier locally-owned male entertainment company. We specialize in creating unforgettable bachelorette parties, birthday celebrations, and special events throughout the greater Charleston area. Our professional entertainers know the area intimately—including all the best recovery brunch spots for the morning after! When you book with us, you're getting local expertise, guaranteed reliability, and the kind of night that requires a serious brunch the next day.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
