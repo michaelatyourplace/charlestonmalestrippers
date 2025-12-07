@@ -390,21 +390,94 @@
         }
     </style>
 
-    <script type='application/ld+json'> 
+<script type="application/ld+json">
     {
-      "@context": "http://www.schema.org",
-      "@type": "Entertainment",
-      "name": "Charleston Male Entertainment Experiences",
-      "url": "https://charlestonmalestrippers.com/",
-      "logo": "./noonBooking.png",
-      "image": "./malestrip9.jpeg",
-      "address": {
-        "@type": "PostalAddress",  
-        "streetAddress": "",  
-        "addressLocality": "charleston", 
-        "addressRegion": "SC"   
-      },
-      "hasMap": ""
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "EntertainmentBusiness",
+          "@id": "https://charlestonmalestrippers.com/#business",
+          "name": "Charleston Male Strippers",
+          "url": "https://charlestonmalestrippers.com",
+          "logo": "https://charlestonmalestrippers.com/logo.jpg",
+          "image": "https://charlestonmalestrippers.com/hero-image.jpg",
+          "telephone": "+1-843-555-0199",
+          "priceRange": "$$",
+          "description": "The #1 rated mobile male revue and party entertainment service in Charleston, SC.",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Charleston",
+            "addressRegion": "SC",
+            "addressCountry": "US"
+          },
+          "areaServed": [
+            "Charleston",
+            "Mount Pleasant",
+            "Folly Beach",
+            "Isle of Palms"
+          ]
+        },
+        {
+          "@type": "Event",
+          "name": "The Ultimate Bachelorette Experience (Private Show)",
+          "description": "Our signature 2-hour private male revue experience delivered to your Charleston hotel or Airbnb.",
+          "image": "https://charlestonmalestrippers.com/images/bachelorette-package.jpg",
+          "startDate": "2025-06-14T19:00",
+          "endDate": "2025-06-14T21:00",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": {
+            "@type": "Place",
+            "name": "Charleston (Your Private Location)",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Charleston",
+              "addressRegion": "SC",
+              "addressCountry": "US"
+            }
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://charlestonmalestrippers.com/book/bachelorette",
+            "price": "350.00",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "organizer": {
+            "@id": "https://charlestonmalestrippers.com/#business"
+          }
+        },
+        {
+          "@type": "Event",
+          "name": "Magic Mike Style - 1 Hour Express",
+          "description": "High energy 1-hour performance perfect for pre-dinner entertainment.",
+          "image": "https://charlestonmalestrippers.com/images/express-package.jpg",
+          "startDate": "2025-06-14T20:00",
+          "endDate": "2025-06-14T21:00",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": {
+            "@type": "Place",
+            "name": "Charleston (Your Private Location)",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Charleston",
+              "addressRegion": "SC",
+              "addressCountry": "US"
+            }
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://charlestonmalestrippers.com/book/express",
+            "price": "200.00",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "organizer": {
+            "@id": "https://charlestonmalestrippers.com/#business"
+          }
+        }
+      ]
     }
     </script>
 
@@ -767,7 +840,7 @@
     <!-- FAQ Section -->
     <section class="py-5" style="background: #e3f2fd;">
         <div class="container">
-            <h2 class="section-title mb-5">Common Questions</h2>
+            <h2 class="section-title mb-5">Frequently Asked Questions</h2>
             
             <div class="row justify-content-center">
                 <div class="col-lg-8">
